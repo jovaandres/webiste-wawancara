@@ -177,14 +177,14 @@ body {
 	padding-right: 10px;
 }
 
-.back .location, .back .more-info {
+.back .times, .back .more-info {
 	font-weight: 600;
 	color: #355cc9;
 	grid-row: 1;
 	font-size: 0.86em;
 }
 
-.back .location {
+.back .times {
 	grid-column: 1/3;
 	justify-self: left;
 }
