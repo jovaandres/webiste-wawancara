@@ -3,14 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/66ea7a0dc7.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <script src="index.js"></script>
 </head>
 
 <body>
@@ -19,7 +17,7 @@
             <input type="checkbox" id="card1" class="more">
             <div class="content">
                 <div class="front"
-                    style="background-image: url('https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c02fb96f9cfc16d3649835b75d1b2033&auto=format&fit=crop&w=1350&q=80')">
+                    style="background-image: url('./image/kru.png')">
                     <div class="inner">
                         <h2>Wawancara Kru</h2>
                         <label for="card1" class="button" aria-hidden="true">
@@ -29,28 +27,15 @@
                 </div>
                 <div class="back">
                     <div class="inner">
-                        <div class="info">
-                            <span>12</span>
-                            <div class="icon">
-                                <i class="fas fa-users"></i>
-                                <span>orang</span>
-                            </div>
-                        </div>
                         <div class="description">
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem unde ea voluptas
-                                fuga
-                                odio vel veniam eveniet, explicabo autem earum?</p>
+                            <p>Nama Kru</p>
                             <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>James Chandra</li>
+                                <li>Nathaniel Jason</li>
                             </ul>
                         </div>
                         <div class="location">Jumat, 5 Maret 2020</div>
-                        <button class="more-info" data-toggle="modal" data-target="#exampleModalCenter"><i
-                                class="fas fa-info-circle"></i></button>
+                        <button class="more-info" data-toggle="modal" data-target="#exampleModalCenter1">more</button>
                         <label for="card1" class="button return" aria-hidden="true">
                             <i class="fas fa-arrow-left"></i>
                         </label>
@@ -58,12 +43,12 @@
                 </div>
             </div>
         </div>
-
+    
         <div class="card card2">
             <input type="checkbox" id="card2" class="more">
             <div class="content">
                 <div class="front"
-                    style="background-image: url('https://images.unsplash.com/photo-1529595354331-201ad3ae5e71?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6114533e2d0c1c81534fe13611dbfd76&auto=format&fit=crop&w=658&q=80')">
+                    style="background-image: url('./image/cakru.jpg')">
                     <div class="inner">
                         <h2>Wawancara Ca-Kru</h2>
                         <label for="card2" class="button" aria-hidden="true">
@@ -73,26 +58,17 @@
                 </div>
                 <div class="back">
                     <div class="inner">
-                        <div class="info">
-                            <span>8</span>
-                            <div class="icon">
-                                <i class="fas fa-users"></i>
-                                <span>people</span>
-                            </div>
-                        </div>
                         <div class="description">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa libero
-                                totam nostrum consequatur autem quae provident quos alias fugit maxime nisi labore,
-                                temporibus tempore illo natus voluptates aliquam ipsum officia quasi placeat aut
-                                facilis
-                                laudantium nam!</p>
-                            <p>Quam, iusto.Neque ratione ut deserunt unde dicta nesciunt,
-                                repudiandae
-                                aspernatur explicabo numquam! Tenetur!</p>
+                            <p>Nama Ca-Kru</p>
+                            <ul>
+                                <li>Jordan Theo Immanuel Sihombing</li>
+                                <li>Jason Kanggara</li>
+                                <li>Rio Bratasena BC</li>
+                                <li>M. Fikri Ranjabi</li>
+                            </ul>
                         </div>
                         <div class="location">Jumat, 5 Maret 2020</div>
-                        <button class="more-info" data-toggle="modal" data-target="#exampleModalCenter"><i
-                                class="fas fa-info-circle"></i></button>
+                        <button class="more-info" data-toggle="modal" data-target="#exampleModalCenter2">more</button>
                         <label for="card2" class="button return" aria-hidden="true">
                             <i class="fas fa-arrow-left"></i>
                         </label>
@@ -101,19 +77,31 @@
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+    
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Rangkuman</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <ul>
+                        <li>Sekre ARC punya AC sebagai hadiah karena pertama kali membawa internet ke ITB, karena server gabole panas jadi harus ada AC juga.</li>
+                        <li>Di ARC nantinya ngerjain proyek bareng dan juga biasanya ada training ke sesama kru biar sama-sama mantep skillnya.</li>
+                        <li>Kehidupan di ARC santai dan seru.</li>
+                        <li>Kak James dan Kak Niel adalah Sekretaris dan Bendahara pada Training ARC 2021.</li>
+                        <li>Kak James ikut di DSC dan akan mencalon jadi Lead untuk tahun depan.</li>
+                        <li>Topik lainnya yaitu perkenalan diri masing-masing dan bahas unit kita yang selain ARC.</li>
+                    </ul>
+                    <ul>
+                        <li>Pesan dari Kru:</li>
+                        <li>Kak Nathaniel Jason: “Tetap semangat. Jangan skip day dan tugas”</li>
+                        <li>Kak James Chandra: “Nathaniel Jason php</li>
+                    </ul>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -121,7 +109,37 @@
             </div>
         </div>
     </div>
-
+    
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Rangkuman</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>1. jordan theo immanuel sihombing. 21.30 - 21.36. TANGERANG sma 3
+                            stei 20. 16520352. pengen masuk if/sti tahun kedua. karena bidangnya ga beda" jauh. nambah" ilmu. pernah nyoba" bikin GuI dan pernah belajar html css. pas sma jadi ketua ekskul KIR (karya ilmiah remaja). ekskul eksperimen". PMK. Cita" informatika. cyber security. </li>
+                        <li>2. jason kanggara. JASON. stei 20. 16520214. 21.37- 21. 44. BOGOR
+                            if/sti. sekarang bikin ted ex (lagi ngurus) front end. 
+                            pake react juga. dulu masuk itb blom tau ngoding, terjun webdev pertama" di aksi angkatan itb. website voting angkatan. mulai suka bootstrap/css. dulu pas aksi angkatan masih pake wordpress. suka duka di itb: seneng, sekarang ya jalanin aja. </li>
+                        <li>3. RIO BRATASENA. BC. FTMD20. 16920189. 
+                            - masuk arc karena seru ngoding"nya. cyber security. jadi admin pekalongan. pake bahasa matlab. kemaren sempet nyoba python. suka python karena syntax pendek". hobi: nongkrong, jarang olahraga (seneng). matkul 2 sks. mtk 2c. teknik dirgantara. kalau ga nerima bakal pindah. malang. udah pernah ke itb.</li>
+                        <li>4. M Fikri Ranjabi. STEI 20. 16520419
+                            masuk arc pengen eksplor lebih dalam lagi tentang web dev. baru” ini belajar framework react, sebelumnya udh pernah coba html css. Tangerang. Hobi: rebahan, tidur, rebahan lagi, tidur lagi. suka ngoding tapi gasuka haskell hehehe.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
